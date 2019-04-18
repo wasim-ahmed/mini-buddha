@@ -1,2 +1,2 @@
-# mini-buddhawe
+# mini-buddha
 website
