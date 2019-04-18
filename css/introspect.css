@@ -1,0 +1,202 @@
+
+.header {
+//background-color: MediumSeaGreen;
+background-color: SlateGrey;
+    padding: 1px;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 5px;
+}
+body{
+  background-color: Azure;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+li {
+    float: left;
+}
+#jump{
+  float:right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+img{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("../images/serious_man.jpg");
+
+    /* Set a specific height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/think.jpg");
+
+    /* Set a specific height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../images/mirror_man.jpg");
+
+    /* Set a specific height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("../images/brainstorming.jpg");
+
+    /* Set a specific height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+#one{
+  float: right;
+}
+#two{
+  float: left;
+}
+#three{
+  float: right;
+}
+#four{
+  float: left;
+}
+#five{
+  float: right;
+}
+#heading1{
+  font-family:cursive;
+}
+#heading2{
+  font-family:cursive;
+}
+#heading3{
+  font-family:cursive;
+}
+#heading4{
+  font-family:cursive;
+}
+#heading5{
+  font-family:cursive;
+}
+.clearfix{
+  overflow: auto;
+}
+*/
+.footer {
+    background-color: #4CAF50;
+    padding: 1px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/*
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  border: 2px solid black;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 4px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+*/
